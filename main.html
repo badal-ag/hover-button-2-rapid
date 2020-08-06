@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rapid Action Button</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu">
+            <div class="toggle" onclick="expand()">
+                <i class="fa fa-plus" id="toggle"></i>
+            </div>
+            <div class="items" id="items">
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-comment"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-camera"></i>
+                </a>
+                <a href="#" id="last-item">
+                    <i class="fa fa-bell"></i>
+                </a>
+            </div>
+        </label>
+        <script src="javascript.js"></script>
+    </body>
+</html>
